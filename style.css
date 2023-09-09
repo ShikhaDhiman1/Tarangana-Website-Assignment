@@ -82,7 +82,7 @@ div.collapse{
 }
 #para-details{
     font-weight: 900;
-    color: #074aa1;
+    color: #075ea1;
     position: relative;
     top: 10vh;
     left: 50px;
@@ -95,6 +95,10 @@ div.collapse{
 #para-details>h5>a{
     color:rgb(210, 79, 79);
     text-decoration: none;
+}
+
+#para-details>h5>a:hover{
+    color:rgb(206, 40, 40);
 }
 
 .grid-container{
