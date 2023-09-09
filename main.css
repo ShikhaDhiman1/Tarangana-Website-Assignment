@@ -77,6 +77,21 @@ div.collapse{
     font-size: 23px;
     padding: 40px 35px;
 }
+#para-details{
+    color: #074aa1;
+    position: relative;
+    top: 10vh;
+    left: 50px;
+    text-decoration: none;
+}
+
+#para-details>h5>span{
+    color:white;
+}
+#para-details>h5>a{
+    color:rgb(210, 79, 79);
+    text-decoration: none;
+}
 
 .grid-container{
     display: grid;
@@ -89,7 +104,6 @@ div.collapse{
 }
 .grid-container>img{
     border: 0.1px solid rgb(188, 187, 187);
-    /* border: 0.1px solid #004AAD; */
     box-shadow: -3px -3px 17px  #033370, 3px 3px 17px #521762 ;
     width: 100%;
     max-height:45vh;
